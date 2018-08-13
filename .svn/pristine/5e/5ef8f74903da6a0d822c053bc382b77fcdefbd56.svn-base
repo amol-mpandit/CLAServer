@@ -1,0 +1,82 @@
+﻿using System;
+using System.Linq;
+using System.Web.Mvc;
+using Core;
+using persistence;
+using System.Web.Http.Cors;
+
+namespace CLAServer.Controllers
+{
+    [EnableCors("*", "*", "*")]
+    public class ClassesController : Controller
+    {
+        public readonly ClassesRepository ClassesRepository;
+
+        public ClassesController(ClassesRepository classesRepository)
+        {
+            ClassesRepository = classesRepository;
+        }
+
+
+        public JsonResult Index()
+        {
+            var allClasses = ClassesRepository.GetAll();
+            return Json(new { result = allClasses }, JsonRequestBehavior.AllowGet);
+        }
+
+        public ActionResult Details(int id)
+        {
+            var classToView = ClassesRepository.Get(id);
+            return View(classToView);
+        }
+
+        public ActionResult Add()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public JsonResult Add(Classes courseToAdd)
+        {
+            try
+            {
+                ClassesRepository.Add(courseToAdd);
+                return Json(new { result = "success" }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception e)
+            {
+                return Json(new { result = e.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+
+
+        [HttpPost]
+        public JsonResult Edit(Classes classToEdit)
+        {
+            try
+            {
+                ClassesRepository.Update(classToEdit);
+                return Json(new { result = "success" }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception e)
+            {
+                return Json(new { result = e.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+        [HttpPost]
+        public JsonResult Delete(int id)
+        {
+            try
+            {
+                ClassesRepository.Delete(id);
+                return Json(new { result = "success" }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception e)
+            {
+                return Json(new { result = e.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+    }
+}

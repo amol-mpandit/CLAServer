@@ -1,0 +1,58 @@
+{
+  "_from": "cordova-template-framework7-vue-webpack",
+  "_id": "cordova-template-framework7-vue-webpack@2.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-tKxZV4jJXgWQq2rBx5XbBd28D8YTkkwbjrvVZOj8f2S2h/jNcr7LW94g1EEfo6/VH/jF1y2vnp/4rHYulf/v4w==",
+  "_location": "/cordova-template-framework7-vue-webpack",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-template-framework7-vue-webpack",
+    "name": "cordova-template-framework7-vue-webpack",
+    "escapedName": "cordova-template-framework7-vue-webpack",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-template-framework7-vue-webpack/-/cordova-template-framework7-vue-webpack-2.0.7.tgz",
+  "_shasum": "79e2fb86d4e5a64b6774ee780d2bb280c7374903",
+  "_spec": "cordova-template-framework7-vue-webpack",
+  "_where": "F:\\work\\CallLessAttendance\\CLAServer_v1\\ClaApp\\ClaMobileApp",
+  "author": {
+    "name": "Caio Biodere"
+  },
+  "bugs": {
+    "url": "https://github.com/caiobiodere/cordova-template-framework7-vue-webpack/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Cordova template with framework7, vue 2 and webpack 2.",
+  "homepage": "https://github.com/caiobiodere/cordova-template-framework7-vue-webpack",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template",
+    "cordova-template",
+    "template",
+    "webpack",
+    "vue.js",
+    "vue"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "cordova-template-framework7-vue-webpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiobiodere/cordova-template-framework7-vue-webpack.git"
+  },
+  "scripts": {
+    "test": "echo \"Err: no test specified\" && exit 1"
+  },
+  "version": "2.0.7"
+}

@@ -1,0 +1,92 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Web.Mvc;
+using AutoMapper;
+using CLAServer.Models;
+using Core;
+using persistence;
+using System.Web.Http.Cors;
+
+namespace CLAServer.Controllers
+{
+    [EnableCors("*", "*", "*")]
+    public class StudentsController : Controller
+    {
+        private readonly StudentRepository _studentRepository;
+        private readonly ClassesRepository _classesRepository;
+
+        public StudentsController(StudentRepository studentRepository, ClassesRepository classesRepository)
+        {
+            _studentRepository = studentRepository;
+            _classesRepository = classesRepository;
+        }
+
+        public JsonResult Index()
+        {
+            var allStudents = new List<StudentViewModel>();
+            foreach (var student in _studentRepository.GetAll())
+            {
+                var studentToView = Mapper.Map<StudentViewModel>(student);
+                studentToView.ClassNameToDisplay = _classesRepository.GetClassNameAndDivisionBy(studentToView.ClassId);
+                allStudents.Add(studentToView);
+            }
+            return Json(new { result = allStudents }, JsonRequestBehavior.AllowGet);
+        }
+
+        public JsonResult GetStudentByRollNo(int rollNo)
+        {
+            var student = _studentRepository.GetStudentBy(rollNo);
+            if (student == null)
+            {
+                return Json(new { result = "Student Not found" }, JsonRequestBehavior.AllowGet);
+            }
+            var studentToView = Mapper.Map<StudentViewModel>(student);
+            studentToView.ClassNameToDisplay = _classesRepository.GetClassNameAndDivisionBy(student.ClassId);
+            return Json(new { result = studentToView }, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        public JsonResult Add(StudentViewModel studentToAdd)
+        {
+            try
+            {
+                var studentToSave = Mapper.Map<Student>(studentToAdd);
+                _studentRepository.Add(studentToSave);
+                return Json(new { result = "success" }, JsonRequestBehavior.AllowGet);
+            }
+            catch(Exception e)
+            {
+                return Json(new { result = e.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+        
+        [HttpPost]
+        public JsonResult Edit(StudentViewModel studentToEdit)
+        {
+            try
+            {
+                var student = Mapper.Map<Student>(studentToEdit);
+                _studentRepository.Update(student);
+                return Json(new { result = "success" }, JsonRequestBehavior.AllowGet);
+            }
+            catch(Exception e)
+            {
+                return Json(new { result = e.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+        
+        [HttpPost]
+        public JsonResult Delete(int id)
+        {
+            try
+            {
+                _studentRepository.Delete(id);
+                return Json(new { result = "success" }, JsonRequestBehavior.AllowGet);
+            }
+            catch(Exception e)
+            {
+                return Json(new { result = e.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+    }
+}

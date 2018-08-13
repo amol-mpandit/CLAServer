@@ -1,0 +1,2138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\CLAServer</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>06/05/2018 14:29:00</publishTime>
+    </File>
+    <File Include="bin/CLAServer.dll">
+      <publishTime>08/10/2018 01:26:32</publishTime>
+    </File>
+    <File Include="bin/Core.dll">
+      <publishTime>08/10/2018 01:26:04</publishTime>
+    </File>
+    <File Include="bin/Dapper.dll">
+      <publishTime>11/25/2017 18:18:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/FluentValidation.dll">
+      <publishTime>06/16/2018 16:14:04</publishTime>
+    </File>
+    <File Include="bin/FullCalendar.MVC5.dll">
+      <publishTime>04/18/2018 09:41:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 13:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 13:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 13:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2015 13:16:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>05/05/2014 11:25:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/persistence.dll">
+      <publishTime>08/10/2018 01:26:05</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/StructureMap.dll">
+      <publishTime>01/17/2018 23:12:34</publishTime>
+    </File>
+    <File Include="bin/StructureMap.Web.dll">
+      <publishTime>12/01/2015 17:10:28</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Primitives.dll">
+      <publishTime>11/05/2016 04:55:40</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/10/2018 22:38:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>05/10/2018 22:37:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>05/10/2018 22:39:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/10/2018 22:39:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Owin.dll">
+      <publishTime>01/28/2015 04:03:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/28/2015 04:03:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>03/10/2014 11:33:46</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/17/2013 17:03:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>06/20/2018 14:42:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>06/20/2018 14:42:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Content/fullcalendar.css">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Content/fullcalendar.min.css">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Content/fullcalendar.print.css">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Content/fullcalendar.print.min.css">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Content/smalot-datetimepicker/bootstrap-datetimepicker.css">
+      <publishTime>06/22/2018 18:42:20</publishTime>
+    </File>
+    <File Include="Content/smalot-datetimepicker/bootstrap-datetimepicker.min.css">
+      <publishTime>06/22/2018 18:42:20</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/09/2018 05:24:42</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>06/20/2018 14:42:32</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>06/20/2018 14:42:28</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>06/20/2018 14:42:26</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>06/20/2018 14:42:26</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>06/20/2018 14:42:26</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>06/20/2018 14:42:26</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>06/20/2018 14:42:26</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>06/20/2018 14:42:26</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>06/20/2018 14:42:26</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>06/20/2018 14:42:26</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/CHANGELOG.txt">
+      <publishTime>03/29/2018 00:10:18</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/CONTRIBUTING.txt">
+      <publishTime>03/29/2018 00:10:18</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/background-events.html">
+      <publishTime>03/29/2018 00:10:16</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/column-grouping.html">
+      <publishTime>03/29/2018 00:10:18</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/columns.html">
+      <publishTime>03/29/2018 00:10:18</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/dynamic-add-remove.html">
+      <publishTime>03/29/2018 00:10:20</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/external-dragging.html">
+      <publishTime>03/29/2018 00:10:20</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/gcal.html">
+      <publishTime>03/29/2018 00:10:26</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/grouping.html">
+      <publishTime>03/29/2018 00:10:26</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/js/theme-chooser.js">
+      <publishTime>03/29/2018 00:11:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/json.html">
+      <publishTime>03/29/2018 00:10:28</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/json/events.json">
+      <publishTime>03/29/2018 00:11:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/json/resources.json">
+      <publishTime>03/29/2018 00:11:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/misc-callbacks.html">
+      <publishTime>03/29/2018 00:10:28</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/no-overlap.html">
+      <publishTime>03/29/2018 00:10:50</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/ordering.html">
+      <publishTime>03/29/2018 00:10:54</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/rendering-hooks.html">
+      <publishTime>03/29/2018 00:10:58</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/scale.html">
+      <publishTime>03/29/2018 00:11:00</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/selectable.html">
+      <publishTime>03/29/2018 00:11:00</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/simple.html">
+      <publishTime>03/29/2018 00:11:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/themes.html">
+      <publishTime>03/29/2018 00:11:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/demos/vertical-resource-view.html">
+      <publishTime>03/29/2018 00:11:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/lib/fullcalendar.min.css">
+      <publishTime>03/29/2018 00:17:10</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/lib/fullcalendar.min.js">
+      <publishTime>03/29/2018 00:17:10</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/lib/fullcalendar.print.min.css">
+      <publishTime>03/29/2018 00:17:10</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/lib/gcal.min.js">
+      <publishTime>03/29/2018 00:17:10</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/lib/jquery-ui.min.js">
+      <publishTime>03/29/2018 00:10:18</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/lib/jquery.min.js">
+      <publishTime>03/29/2018 00:10:18</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/lib/moment.min.js">
+      <publishTime>03/29/2018 00:10:16</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/LICENSE.txt">
+      <publishTime>03/29/2018 00:10:16</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/scheduler.css">
+      <publishTime>03/29/2018 00:11:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/scheduler.js">
+      <publishTime>03/29/2018 00:17:10</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/scheduler.min.css">
+      <publishTime>03/29/2018 00:11:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-scheduler-1.9.4/fullcalendar-scheduler-1.9.4/scheduler.min.js">
+      <publishTime>03/29/2018 00:17:10</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar.helper.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar.helper.min.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar.min.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/fullcalendar.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/fullcalendar.min.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/gcal.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/gcal.min.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale-all.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/af.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ar-dz.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ar-kw.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ar-ly.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ar-ma.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ar-sa.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ar-tn.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ar.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/bg.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/bs.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ca.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/cs.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/da.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/de-at.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/de-ch.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/de.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/el.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/en-au.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/en-ca.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/en-gb.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/en-ie.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/en-nz.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/es-do.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/es-us.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/es.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/et.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/eu.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/fa.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/fi.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/fr-ca.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/fr-ch.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/fr.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/gl.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/he.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/hi.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/hr.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/hu.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/id.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/is.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/it.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ja.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ka.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/kk.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ko.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/lb.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/lt.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/lv.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/mk.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ms-my.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ms.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/nb.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/nl-be.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/nl.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/nn.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/pl.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/pt-br.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/pt.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ro.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/ru.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/sk.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/sl.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/sq.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/sr-cyrl.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/sr.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/sv.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/th.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/tr.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/uk.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/vi.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/zh-cn.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar/locale/zh-tw.js">
+      <publishTime>06/20/2018 14:48:14</publishTime>
+    </File>
+    <File Include="Scripts/gcal.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/gcal.min.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>06/20/2018 14:40:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>06/20/2018 14:40:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>06/20/2018 14:40:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>06/20/2018 14:40:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>06/20/2018 14:40:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>06/20/2018 14:40:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>06/20/2018 14:40:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>06/20/2018 14:40:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>06/20/2018 14:43:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>06/20/2018 14:43:16</publishTime>
+    </File>
+    <File Include="Scripts/knockout-3.4.2.debug.js">
+      <publishTime>06/20/2018 15:28:58</publishTime>
+    </File>
+    <File Include="Scripts/knockout-3.4.2.js">
+      <publishTime>06/20/2018 15:28:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-bg_glass_50_3baae3_1x400.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-icons_2694e8_256x240.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-icons_3d80b3_256x240.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-icons_72a7cf_256x240.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/images/ui-icons_ffffff_256x240.png">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/cupertino/jquery-ui.min.css">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/jquery-ui.min.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/jquery.min.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/lib/moment.min.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale-all.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/af.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/ar-dz.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/ar-kw.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/ar-ly.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/ar-ma.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/ar-sa.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/ar-tn.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/ar.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/bg.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/bs.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/ca.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/cs.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/da.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/de-at.js">
+      <publishTime>06/20/2018 14:45:58</publishTime>
+    </File>
+    <File Include="Scripts/locale/de-ch.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/de.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/el.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/en-au.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/en-ca.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/en-gb.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/en-ie.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/en-nz.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/es-do.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/es-us.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/es.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/et.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/eu.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/fa.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/fi.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/fr-ca.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/fr-ch.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/fr.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/gl.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/he.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/hi.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/hr.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/hu.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/id.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/is.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/it.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/ja.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/ka.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/kk.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/ko.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/lb.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/lt.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/lv.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/mk.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/ms-my.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/ms.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/nb.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/nl-be.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/nl.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/nn.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/pl.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/pt-br.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/pt.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/ro.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/ru.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/sk.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/sl.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/sq.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/sr-cyrl.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/sr.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/sv.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/th.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/tr.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/uk.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/vi.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/zh-cn.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/locale/zh-tw.js">
+      <publishTime>06/20/2018 14:45:56</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Scripts/ModuleScripts/TimeTable.js">
+      <publishTime>06/23/2018 02:40:24</publishTime>
+    </File>
+    <File Include="Scripts/moment-timezone-utils.js">
+      <publishTime>06/20/2018 14:54:52</publishTime>
+    </File>
+    <File Include="Scripts/moment-timezone-with-data-2012-2022.js">
+      <publishTime>06/20/2018 14:54:52</publishTime>
+    </File>
+    <File Include="Scripts/moment-timezone-with-data-2012-2022.min.js">
+      <publishTime>06/20/2018 14:54:52</publishTime>
+    </File>
+    <File Include="Scripts/moment-timezone-with-data.js">
+      <publishTime>06/20/2018 14:54:52</publishTime>
+    </File>
+    <File Include="Scripts/moment-timezone-with-data.min.js">
+      <publishTime>06/20/2018 14:54:52</publishTime>
+    </File>
+    <File Include="Scripts/moment-timezone.js">
+      <publishTime>06/20/2018 14:54:52</publishTime>
+    </File>
+    <File Include="Scripts/moment-timezone.min.js">
+      <publishTime>06/20/2018 14:54:52</publishTime>
+    </File>
+    <File Include="Scripts/moment-with-locales.js">
+      <publishTime>06/20/2018 14:51:10</publishTime>
+    </File>
+    <File Include="Scripts/moment-with-locales.min.js">
+      <publishTime>06/20/2018 14:51:10</publishTime>
+    </File>
+    <File Include="Scripts/moment.js">
+      <publishTime>06/20/2018 14:51:10</publishTime>
+    </File>
+    <File Include="Scripts/moment.min.js">
+      <publishTime>06/20/2018 14:51:10</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>06/20/2018 14:42:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>06/20/2018 14:42:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/bootstrap-datetimepicker.js">
+      <publishTime>06/22/2018 18:42:20</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/bootstrap-datetimepicker.min.js">
+      <publishTime>06/22/2018 18:42:18</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.ar.js">
+      <publishTime>06/22/2018 18:42:18</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.bg.js">
+      <publishTime>06/22/2018 18:42:18</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.ca.js">
+      <publishTime>06/22/2018 18:42:18</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.cs.js">
+      <publishTime>06/22/2018 18:42:16</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.da.js">
+      <publishTime>06/22/2018 18:42:16</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.de.js">
+      <publishTime>06/22/2018 18:42:16</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.ee.js">
+      <publishTime>06/22/2018 18:42:16</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.el.js">
+      <publishTime>06/22/2018 18:42:14</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.es.js">
+      <publishTime>06/22/2018 18:42:14</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.fi.js">
+      <publishTime>06/22/2018 18:42:14</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.fr.js">
+      <publishTime>06/22/2018 18:42:14</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.he.js">
+      <publishTime>06/22/2018 18:42:12</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.hr.js">
+      <publishTime>06/22/2018 18:42:12</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.hu.js">
+      <publishTime>06/22/2018 18:42:12</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.id.js">
+      <publishTime>06/22/2018 18:42:12</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.is.js">
+      <publishTime>06/22/2018 18:42:12</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.it.js">
+      <publishTime>06/22/2018 18:42:10</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.ja.js">
+      <publishTime>06/22/2018 18:42:10</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.ko.js">
+      <publishTime>06/22/2018 18:42:10</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.lt.js">
+      <publishTime>06/22/2018 18:42:10</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.lv.js">
+      <publishTime>06/22/2018 18:42:08</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.ms.js">
+      <publishTime>06/22/2018 18:42:08</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.nb.js">
+      <publishTime>06/22/2018 18:42:08</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.nl.js">
+      <publishTime>06/22/2018 18:42:08</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.no.js">
+      <publishTime>06/22/2018 18:42:08</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.pl.js">
+      <publishTime>06/22/2018 18:42:06</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.pt-BR.js">
+      <publishTime>06/22/2018 18:42:06</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.pt.js">
+      <publishTime>06/22/2018 18:42:06</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.ro.js">
+      <publishTime>06/22/2018 18:42:06</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.rs-latin.js">
+      <publishTime>06/22/2018 18:42:04</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.rs.js">
+      <publishTime>06/22/2018 18:42:04</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.ru.js">
+      <publishTime>06/22/2018 18:42:04</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.sk.js">
+      <publishTime>06/22/2018 18:42:04</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.sl.js">
+      <publishTime>06/22/2018 18:42:04</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.sv.js">
+      <publishTime>06/22/2018 18:42:02</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.sw.js">
+      <publishTime>06/22/2018 18:42:02</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.th.js">
+      <publishTime>06/22/2018 18:42:02</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.tr.js">
+      <publishTime>06/22/2018 18:42:02</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.ua.js">
+      <publishTime>06/22/2018 18:42:02</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.uk.js">
+      <publishTime>06/22/2018 18:42:00</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.zh-CN.js">
+      <publishTime>06/22/2018 18:42:00</publishTime>
+    </File>
+    <File Include="Scripts/smalot-datetimepicker/locales/bootstrap-datetimepicker.zh-TW.js">
+      <publishTime>06/22/2018 18:42:00</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>06/20/2018 14:42:22</publishTime>
+    </File>
+    <File Include="Scripts/vue.js">
+      <publishTime>06/28/2018 02:47:56</publishTime>
+    </File>
+    <File Include="Scripts/vue.min.js">
+      <publishTime>06/20/2018 15:50:12</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>08/03/2018 18:11:48</publishTime>
+    </File>
+    <File Include="Views/Classes/Add.cshtml">
+      <publishTime>06/16/2018 22:43:14</publishTime>
+    </File>
+    <File Include="Views/Classes/Delete.cshtml">
+      <publishTime>06/16/2018 22:43:16</publishTime>
+    </File>
+    <File Include="Views/Classes/Details.cshtml">
+      <publishTime>06/16/2018 22:43:04</publishTime>
+    </File>
+    <File Include="Views/Classes/Edit.cshtml">
+      <publishTime>06/16/2018 22:42:58</publishTime>
+    </File>
+    <File Include="Views/Classes/Index.cshtml">
+      <publishTime>06/16/2018 21:19:38</publishTime>
+    </File>
+    <File Include="Views/Faculties/Add.cshtml">
+      <publishTime>06/16/2018 22:42:46</publishTime>
+    </File>
+    <File Include="Views/Faculties/Delete.cshtml">
+      <publishTime>06/16/2018 22:42:42</publishTime>
+    </File>
+    <File Include="Views/Faculties/Details.cshtml">
+      <publishTime>06/16/2018 22:42:36</publishTime>
+    </File>
+    <File Include="Views/Faculties/Edit.cshtml">
+      <publishTime>06/16/2018 22:42:32</publishTime>
+    </File>
+    <File Include="Views/Faculties/Index.cshtml">
+      <publishTime>06/16/2018 21:16:48</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>06/27/2018 22:57:40</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>06/23/2018 03:04:16</publishTime>
+    </File>
+    <File Include="Views/Shared/_Validation.cshtml">
+      <publishTime>06/27/2018 03:21:38</publishTime>
+    </File>
+    <File Include="Views/Shared/_Vue_Layout.cshtml">
+      <publishTime>08/05/2018 08:33:35</publishTime>
+    </File>
+    <File Include="Views/Students/Add.cshtml">
+      <publishTime>06/18/2018 02:42:30</publishTime>
+    </File>
+    <File Include="Views/Students/Delete.cshtml">
+      <publishTime>06/18/2018 03:29:16</publishTime>
+    </File>
+    <File Include="Views/Students/Details.cshtml">
+      <publishTime>06/18/2018 03:27:56</publishTime>
+    </File>
+    <File Include="Views/Students/Edit.cshtml">
+      <publishTime>06/18/2018 02:43:02</publishTime>
+    </File>
+    <File Include="Views/Students/Index.cshtml">
+      <publishTime>06/18/2018 03:26:56</publishTime>
+    </File>
+    <File Include="Views/Subjects/Add.cshtml">
+      <publishTime>06/22/2018 18:54:16</publishTime>
+    </File>
+    <File Include="Views/Subjects/Delete.cshtml">
+      <publishTime>06/18/2018 03:50:52</publishTime>
+    </File>
+    <File Include="Views/Subjects/Details.cshtml">
+      <publishTime>06/18/2018 03:41:02</publishTime>
+    </File>
+    <File Include="Views/Subjects/Edit.cshtml">
+      <publishTime>06/18/2018 03:47:58</publishTime>
+    </File>
+    <File Include="Views/Subjects/Index.cshtml">
+      <publishTime>06/18/2018 03:39:20</publishTime>
+    </File>
+    <File Include="Views/TimeTable/Add.cshtml">
+      <publishTime>06/27/2018 03:46:04</publishTime>
+    </File>
+    <File Include="Views/TimeTable/Calendar.cshtml">
+      <publishTime>06/21/2018 14:43:02</publishTime>
+    </File>
+    <File Include="Views/TimeTable/Delete.cshtml">
+      <publishTime>06/21/2018 04:11:40</publishTime>
+    </File>
+    <File Include="Views/TimeTable/Details.cshtml">
+      <publishTime>06/21/2018 04:11:14</publishTime>
+    </File>
+    <File Include="Views/TimeTable/Edit.cshtml">
+      <publishTime>06/23/2018 02:39:26</publishTime>
+    </File>
+    <File Include="Views/TimeTable/Index.cshtml">
+      <publishTime>06/21/2018 04:13:16</publishTime>
+    </File>
+    <File Include="Views/Vue/App.cshtml">
+      <publishTime>07/28/2018 01:11:22</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>05/15/2018 21:31:00</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/28/2018 01:17:08</publishTime>
+    </File>
+    <File Include="vue-dashboard/.babelrc">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/.editorconfig">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/.eslintrc.json">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/.gitattributes">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/.gitignore">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/build.js">
+      <publishTime>08/01/2018 02:31:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/check-versions.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/dev-client.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/dev-server.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/utils.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/vue-loader.conf.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/webpack.base.conf.js">
+      <publishTime>07/29/2018 21:19:24</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/webpack.dev.conf.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/webpack.prod.conf.js">
+      <publishTime>06/22/2018 15:16:34</publishTime>
+    </File>
+    <File Include="vue-dashboard/build/webpack.test.conf.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/CHANGELOG.md">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/config/dev.env.js">
+      <publishTime>08/01/2018 02:34:14</publishTime>
+    </File>
+    <File Include="vue-dashboard/config/index.js">
+      <publishTime>08/01/2018 01:49:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/config/prod.env.js">
+      <publishTime>08/01/2018 01:50:50</publishTime>
+    </File>
+    <File Include="vue-dashboard/config/test.env.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/app.js">
+      <publishTime>08/10/2018 01:26:25</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/index.html">
+      <publishTime>08/10/2018 01:26:25</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/css/app.css">
+      <publishTime>08/01/2018 02:26:12</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/css/themify-icons.css">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/favicon.png">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/element-icons.ttf">
+      <publishTime>08/10/2018 01:26:25</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/glyphicons-halflings-regular.448c34a.woff2">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/glyphicons-halflings-regular.e18bbf6.ttf">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/10/2018 01:26:25</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/glyphicons-halflings-regular.f4769f9.eot">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/glyphicons-halflings-regular.fa27723.woff">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/10/2018 01:26:25</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/10/2018 01:26:25</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/10/2018 01:26:25</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/themify.eot">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/themify.svg">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/themify.ttf">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/fonts/themify.woff">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/apple-icon.png">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/background.jpg">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/faces/face-0.jpg">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/faces/face-1.jpg">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/faces/face-2.jpg">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/faces/face-3.jpg">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/favicon.png">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/glyphicons-halflings-regular.8988968.svg">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/glyphicons-halflings-regular.svg">
+      <publishTime>08/10/2018 01:26:25</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/ignou.png">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/new_logo.png">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/tim_80x80.png">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/img/vue-logo.png">
+      <publishTime>08/10/2018 01:26:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/js/app.js">
+      <publishTime>08/01/2018 02:26:12</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/js/manifest.js">
+      <publishTime>08/01/2018 02:26:12</publishTime>
+    </File>
+    <File Include="vue-dashboard/dist/static/js/vendor.js">
+      <publishTime>08/01/2018 02:26:12</publishTime>
+    </File>
+    <File Include="vue-dashboard/index.html">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/LICENSE.md">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/package-lock.json">
+      <publishTime>08/03/2018 22:54:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/package.json">
+      <publishTime>07/30/2018 22:57:22</publishTime>
+    </File>
+    <File Include="vue-dashboard/README.md">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/App.vue">
+      <publishTime>08/03/2018 02:07:48</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper-dashboard.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_buttons.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_cards.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_chartist.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_icons.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_inputs.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_labels.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_navbars.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_sidebar.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_tabs.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_transparency.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/mixins/_vendor-prefixes.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_alerts.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_buttons.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_cards.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_chartist.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_checkbox-radio.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_dropdown.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_footers.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_inputs.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_misc.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_mixins.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_navbars.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_responsive.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_sidebar-and-main-panel.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_tables.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_typography.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/assets/sass/paper/_variables.scss">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Layout/Content.vue">
+      <publishTime>07/29/2018 04:23:48</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Layout/ContentFooter.vue">
+      <publishTime>06/22/2018 17:33:40</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Layout/DashboardLayout.vue">
+      <publishTime>06/22/2018 16:47:06</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Layout/TopNavbar.vue">
+      <publishTime>08/05/2018 08:07:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Attendance/attendance.vue">
+      <publishTime>08/05/2018 09:59:50</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Attendance/attendanceCard.vue">
+      <publishTime>08/05/2018 07:33:16</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Attendance/AttendanceReport.vue">
+      <publishTime>08/05/2018 05:16:03</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Attendance/studentCard.vue">
+      <publishTime>08/03/2018 19:12:40</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Course/addEdit.vue">
+      <publishTime>07/22/2018 02:12:56</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Course/Courses.vue">
+      <publishTime>08/04/2018 22:05:14</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Faculty/addEdit.vue">
+      <publishTime>07/22/2018 03:56:08</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Faculty/Faculties.vue">
+      <publishTime>08/04/2018 22:50:52</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Icons.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Maps.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Notifications.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Overview.vue">
+      <publishTime>08/05/2018 08:02:58</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Student/addEdit.vue">
+      <publishTime>08/05/2018 03:47:18</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Student/Students.vue">
+      <publishTime>08/05/2018 01:55:17</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Subject/addEdit.vue">
+      <publishTime>08/05/2018 03:47:29</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Subject/Subjects.vue">
+      <publishTime>08/04/2018 22:50:23</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/TableList.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/TimeTable/addEdit.vue">
+      <publishTime>08/05/2018 02:25:01</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/TimeTable/calender.vue">
+      <publishTime>08/01/2018 03:07:32</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/TimeTable/TimeTable.vue">
+      <publishTime>08/04/2018 22:50:37</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/Typography.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/UserProfile.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/UserProfile/EditProfileForm.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/UserProfile/MembersCard.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/Dashboard/Views/UserProfile/UserCard.vue">
+      <publishTime>08/03/2018 04:09:08</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/GeneralViews/NotFoundPage.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/Cards/ChartCard.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/Cards/StatsCard.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/Dropdown.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/Inputs/dateTimeInput.vue">
+      <publishTime>07/31/2018 00:46:16</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/Inputs/formGroupInput.vue">
+      <publishTime>07/27/2018 04:07:00</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/Inputs/formGroupInput.vue.bak">
+      <publishTime>07/27/2018 03:44:08</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/NotificationPlugin/index.js">
+      <publishTime>07/28/2018 05:19:54</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/NotificationPlugin/Notification.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/NotificationPlugin/Notifications.vue">
+      <publishTime>07/21/2018 05:26:22</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/PaperTable.vue">
+      <publishTime>08/04/2018 19:39:37</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/RowModal.vue">
+      <publishTime>08/04/2018 00:59:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/SidebarPlugin/index.js">
+      <publishTime>08/05/2018 07:59:58</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/SidebarPlugin/MovingArrow.vue">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/SidebarPlugin/SideBar.vue">
+      <publishTime>08/05/2018 03:26:12</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/components/UIComponents/StartEndDatetime.vue">
+      <publishTime>08/05/2018 06:31:54</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/gloablComponents.js">
+      <publishTime>08/03/2018 03:15:14</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/main.js">
+      <publishTime>08/01/2018 00:33:12</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/routes/routes.js">
+      <publishTime>08/10/2018 01:14:34</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/shared/HTTP.js">
+      <publishTime>08/01/2018 02:34:16</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/shared/jquery-from-page.js">
+      <publishTime>07/04/2018 02:06:06</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/shared/util.js">
+      <publishTime>08/10/2018 01:25:29</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/actions.js">
+      <publishTime>07/09/2018 02:43:36</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/index.js">
+      <publishTime>08/03/2018 15:34:46</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/attendance/actions.js">
+      <publishTime>08/05/2018 07:48:37</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/attendance/mutations.js">
+      <publishTime>08/04/2018 23:47:54</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/attendance/state.js">
+      <publishTime>08/04/2018 23:53:38</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/attendance/store.js">
+      <publishTime>08/03/2018 12:25:48</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/course/actions.js">
+      <publishTime>08/04/2018 22:30:52</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/course/mutations.js">
+      <publishTime>08/04/2018 22:30:04</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/course/state.js">
+      <publishTime>08/04/2018 22:13:42</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/course/store.js">
+      <publishTime>07/14/2018 03:08:56</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/faculty/actions.js">
+      <publishTime>08/04/2018 22:31:10</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/faculty/mutations.js">
+      <publishTime>08/04/2018 22:29:53</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/faculty/state.js">
+      <publishTime>08/04/2018 21:47:49</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/faculty/store.js">
+      <publishTime>07/22/2018 03:21:44</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/student/actions.js">
+      <publishTime>08/04/2018 22:31:39</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/student/mutations.js">
+      <publishTime>08/04/2018 22:31:13</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/student/state.js">
+      <publishTime>08/04/2018 21:47:31</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/student/store.js">
+      <publishTime>07/24/2018 02:52:08</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/subject/actions.js">
+      <publishTime>08/04/2018 22:32:04</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/subject/mutations.js">
+      <publishTime>08/04/2018 22:31:13</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/subject/state.js">
+      <publishTime>08/04/2018 22:13:42</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/subject/store.js">
+      <publishTime>07/25/2018 00:28:48</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/timetable/actions.js">
+      <publishTime>08/05/2018 00:29:29</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/timetable/mutations.js">
+      <publishTime>08/04/2018 23:52:08</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/timetable/state.js">
+      <publishTime>08/04/2018 22:13:42</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/modules/timetable/store.js">
+      <publishTime>07/26/2018 23:30:40</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/mutations.js">
+      <publishTime>07/09/2018 02:43:36</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/state.js">
+      <publishTime>07/13/2018 02:17:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/src/store/store.js">
+      <publishTime>07/13/2018 03:12:20</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/.gitkeep">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/css/themify-icons.css">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/favicon.png">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/fonts/glyphicons-halflings-regular.448c34a.woff2">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/fonts/glyphicons-halflings-regular.e18bbf6.ttf">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/fonts/glyphicons-halflings-regular.f4769f9.eot">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/fonts/glyphicons-halflings-regular.fa27723.woff">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/fonts/themify.eot">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/fonts/themify.svg">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/fonts/themify.ttf">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/fonts/themify.woff">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/apple-icon.png">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/background.jpg">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/faces/face-0.jpg">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/faces/face-1.jpg">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/faces/face-2.jpg">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/faces/face-3.jpg">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/favicon.png">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/glyphicons-halflings-regular.8988968.svg">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/ignou.png">
+      <publishTime>08/05/2018 02:54:09</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/new_logo.png">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/tim_80x80.png">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/static/img/vue-logo.png">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/e2e/custom-assertions/elementCount.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/e2e/nightwatch.conf.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/e2e/runner.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/e2e/specs/test.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/.eslintrc">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/base.css">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/index.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/prettify.css">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/prettify.js">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/sort-arrow-sprite.png">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/sorter.js">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/App.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Layout/Content.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Layout/ContentFooter.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Layout/DashboardLayout.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Layout/index.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Layout/TopNavbar.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/Icons.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/index.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/Maps.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/Notifications.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/Overview.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/TableList.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/Typography.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/UserProfile.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/UserProfile/EditProfileForm.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/UserProfile/index.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/UserProfile/MembersCard.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/Dashboard/Views/UserProfile/UserCard.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/GeneralViews/index.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/GeneralViews/NotFoundPage.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/Cards/ChartCard.vue.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/Cards/index.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/Cards/StatsCard.vue.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/Dropdown.vue.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/index.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/Inputs/formGroupInput.vue.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/Inputs/index.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/NotificationPlugin/index.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/NotificationPlugin/index.js.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/NotificationPlugin/Notification.vue.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/NotificationPlugin/Notifications.vue.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/PaperTable.vue.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/SidebarPlugin/index.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/SidebarPlugin/index.js.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/SidebarPlugin/MovingArrow.vue.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/components/UIComponents/SidebarPlugin/SideBar.vue.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/gloablComponents.js.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/index.html">
+      <publishTime>06/13/2018 23:15:26</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/routes/index.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov-report/src/routes/routes.js.html">
+      <publishTime>06/13/2018 23:15:28</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/coverage/lcov.info">
+      <publishTime>06/14/2018 21:58:04</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/helpers/mount.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/helpers/triggerEvent.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/helpers/wait-for-update.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/index.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/karma.conf.js">
+      <publishTime>06/06/2018 00:50:32</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/specs/fgInput.spec.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/specs/Overview.spec.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/test/unit/specs/paper-table.spec.js">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="vue-dashboard/yarn.lock">
+      <publishTime>06/18/2017 20:03:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/10/2018 01:26:35</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

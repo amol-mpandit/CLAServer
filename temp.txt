@@ -1,0 +1,10 @@
+this.axios.post(this.deleteUrl, { id: id, itemToDelete: item }).then((response) => {
+            if (response.data.result === 'success') {
+              this.notifyVue(3, '<b>Success</b> <br>Deleted successfully.</br>')
+              this.data.remove(item)
+            } else {
+              this.notifyVue(4, '<b>Failed to delete!</b><br>' + response.data.result)
+            }
+          }).catch(function (error) {
+            self.notifyVue(4, error)
+          })

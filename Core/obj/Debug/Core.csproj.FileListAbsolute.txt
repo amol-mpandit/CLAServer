@@ -1,0 +1,9 @@
+D:\Playground\CLAServer\CLAServer_v3\Core\bin\Debug\Core.dll
+D:\Playground\CLAServer\CLAServer_v3\Core\bin\Debug\Core.pdb
+D:\Playground\CLAServer\CLAServer_v3\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+D:\Playground\CLAServer\CLAServer_v3\Core\obj\Debug\Core.dll
+D:\Playground\CLAServer\CLAServer_v3\Core\obj\Debug\Core.pdb
+F:\work\CallLessAttendance\CLAServer_v1\Core\bin\Debug\Core.dll
+F:\work\CallLessAttendance\CLAServer_v1\Core\bin\Debug\Core.pdb
+F:\work\CallLessAttendance\CLAServer_v1\Core\obj\Debug\Core.dll
+F:\work\CallLessAttendance\CLAServer_v1\Core\obj\Debug\Core.pdb

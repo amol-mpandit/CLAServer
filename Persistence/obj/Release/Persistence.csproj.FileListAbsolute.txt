@@ -1,0 +1,9 @@
+F:\work\CallLessAttendance\CLAServer_v1\persistence\bin\Release\persistence.dll
+F:\work\CallLessAttendance\CLAServer_v1\persistence\bin\Release\persistence.pdb
+F:\work\CallLessAttendance\CLAServer_v1\persistence\bin\Release\Core.dll
+F:\work\CallLessAttendance\CLAServer_v1\persistence\bin\Release\Dapper.dll
+F:\work\CallLessAttendance\CLAServer_v1\persistence\bin\Release\Core.pdb
+F:\work\CallLessAttendance\CLAServer_v1\persistence\bin\Release\Dapper.xml
+F:\work\CallLessAttendance\CLAServer_v1\persistence\obj\Release\Persistence.csprojResolveAssemblyReference.cache
+F:\work\CallLessAttendance\CLAServer_v1\persistence\obj\Release\persistence.dll
+F:\work\CallLessAttendance\CLAServer_v1\persistence\obj\Release\persistence.pdb

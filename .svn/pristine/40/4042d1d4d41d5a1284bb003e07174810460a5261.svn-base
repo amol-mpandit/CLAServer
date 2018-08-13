@@ -1,0 +1,164 @@
+<template>
+  <div>
+      <div class="row ti-align-left">
+          Toggle
+          <toggle-button @change="isCalendarView=!isCalendarView"
+                         :value="isCalendarView"
+                         :labels="{checked: 'Tabuler', unchecked: 'Calendar'}"
+                         :color="{checked: '#00FF00', unchecked: '#181819'}"/>
+      </div>
+      <div v-if="!isCalendarView">
+          <div class="row">
+              <div class="col-md-12">
+                    <add-edit :item="itemToAdd">
+                    </add-edit>
+                  <div class="col-md-3">
+                      <button type="submit" class="btn btn-info btn-fill btn-wd" style='margin-top: 25px;' @click.prevent="add">Add</button>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="card" v-loading="loading">
+                      <paper-table type="hover" 
+                                   :title="title" 
+                                   :sub-title="subTitle" 
+                                   :data="timeTable" 
+                                   :columns="columns"
+                                   :columnsToDisplay="columnsToDisplay">
+                        <th slot="actionHeader">Actions</th>
+                        <template slot="actionButtons" slot-scope="{ item }">
+                            <td>
+                                <button type="submit" 
+                                        class="btn btn-sm btn-fill ti-pencil" 
+                                        @click.prevent="showEditModal(item)">
+                                    Edit
+                                </button>
+                                <button type="submit"
+                                        class="btn btn-sm btn-fill ti-trash"
+                                        @click.prevent="showDeleteModal(item)">
+                                    Delete
+                                </button>
+                            </td>
+                        </template>
+                      </paper-table>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row" v-if="isCalendarView">
+          <calender v-loading="loading" :timeTable="timeTable"></calender>
+      </div>
+      <div>
+          <row-modal :action="action"
+                     :message="message"
+                     :show="editShow"
+                     @close="editShow=false"
+                     @executeAction="edit(itemToEdit)">
+                <template slot="slotedModalBody">
+                    <add-edit :item="itemToEdit">
+                    </add-edit>
+                </template>
+          </row-modal>
+          <row-modal :action="action"
+                     :message="message"
+                     :show="deleteShow"
+                     @close="deleteShow=false"
+                     @executeAction="removeitem(itemToDelete)">
+              <template slot="slotedModalBody">
+                  <paper-table :data="itemToDelete" :columns="columns">
+                  </paper-table>
+              </template>
+          </row-modal>
+      </div>
+  </div>
+</template>
+<script>
+    import addEdit from './addEdit.vue'
+    import calender from './calender.vue'
+    import { mapState, mapActions } from 'vuex'
+
+    const tableColumns = ['TimeTableId', 'ClassName', 'FacultyName', 'SubjectName', 'StartTimeToDisplay', 'EndTimeToDisplay', 'DurationInMin', 'IsActive']
+    const tableColumnsToDisplay = ['Id', 'Class Name', 'Faculty Name', 'Subject Name', 'StartTime', 'EndTime', 'Duration In Min', 'Scheduled']
+    const deleteMessage = 'Are you sure want to delete?'
+    const editMessage = 'Please edit following'
+
+export default {
+  components: {
+        addEdit,
+        calender
+  },
+  data () {
+        return {
+          title: 'TimeTable',
+          subTitle: 'All letctures in the system are list here.',
+          columns: [...tableColumns],
+          columnsToDisplay: [...tableColumnsToDisplay],
+          itemToAdd: { IsActive: false },
+          editShow: false,
+          deleteShow: false,
+          itemToEdit: {},
+          itemToDelete: {},
+          action: '',
+          message: '',
+          rowToDispaly: {},
+          isCalendarView: false
+        }
+  },
+      computed: mapState({
+        timeTable: state => state.timeTable.timeTable,
+        loading: state => state.student.loading
+      }),
+      methods: {
+        ...mapActions('timeTable', ['loadTimeTable', 'addTimeTable', 'deleteTimeTable', 'editTimeTable']),
+        add () {
+          let self = this
+          this.addTimeTable(this.itemToAdd).then(result => {
+            if (result === 'success') {
+              self.itemToAdd = { IsActive: false, StartTime: null, EndTime: null }
+            }
+            this.$notifications.showSaved('TimeTable', 'add', result)
+          })
+        },
+        removeitem (item) {
+          if (item) {
+            let itemToRemoveId = JSON.parse(JSON.stringify(item))[0].TimeTableId
+            this.deleteTimeTable(itemToRemoveId).then(result => {
+              this.$notifications.showSaved('TimeTable', 'delete', result)
+            })
+            this.deleteShow = false
+          }
+        },
+        edit (item) {
+          if (item) {
+            this.editTimeTable(item).then(result => {
+              this.$notifications.showSaved('TimeTable', 'edit', result)
+            })
+            this.editShow = false
+          }
+        },
+        showDeleteModal (item) {
+          this.action = 'Delete TimeTable'
+          this.message = deleteMessage
+          let arr = []
+          arr[0] = item
+          this.itemToDelete = arr
+          this.deleteShow = true
+        },
+        showEditModal (item) {
+          this.action = 'Edit TimeTable'
+          this.message = editMessage
+          this.itemToEdit = item
+          this.editShow = true
+        }
+      },
+      created () {
+        this.$store.dispatch('timeTable/loadTimeTable')
+      }
+}
+</script>
+<style>
+.btn {
+    
+}
+</style>

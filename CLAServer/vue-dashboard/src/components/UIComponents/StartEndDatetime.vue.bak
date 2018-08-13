@@ -1,0 +1,53 @@
+﻿<template>
+    <div class="form-group">
+        <div class="block">
+            <el-date-picker 
+               class="form-control border-input"
+               v-model="dates" 
+               type="datetimerange"
+               range-separator="-" 
+               start-placeholder="Start date" 
+               end-placeholder="End date"
+               format="yyyy-MM-dd hh:mm A"
+               value-format="yyyy-MM-dd hh:mm A" 
+               align="right"
+               @change="dateTimeChanged">
+            </el-date-picker>
+        </div>
+        <div> dates:{{dates}} </div>
+    </div>
+</template>
+
+<script>
+export default {
+  props: {
+    startDateTime: {},
+    endDateTime: {}
+  },
+  data () {
+    return {
+      dates: this.getDates()
+    }
+  },
+  methods: {
+    dateTimeChanged: function (dateValues) {
+      if (dateValues) {
+        this.$emit('dateChanged', { startDate: dateValues[0], endDate: dateValues[1] })
+      }
+    },
+    getDates: function () {
+      let arr = []
+      if (this.startDateTime) {
+        arr[0] = this.$moment(this.startDateTime).format('YYYY-MM-DD hh:mm A')
+      }
+      if (this.endDateTime) {
+        arr[1] = this.$moment(this.endDateTime).format('YYYY-MM-DD hh:mm A')
+      }
+      return arr
+    }
+  }
+}
+</script>
+<style>
+
+</style>

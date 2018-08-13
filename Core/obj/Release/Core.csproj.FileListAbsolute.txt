@@ -1,0 +1,5 @@
+F:\work\CallLessAttendance\CLAServer_v1\Core\bin\Release\Core.dll
+F:\work\CallLessAttendance\CLAServer_v1\Core\bin\Release\Core.pdb
+F:\work\CallLessAttendance\CLAServer_v1\Core\obj\Release\Core.csprojResolveAssemblyReference.cache
+F:\work\CallLessAttendance\CLAServer_v1\Core\obj\Release\Core.dll
+F:\work\CallLessAttendance\CLAServer_v1\Core\obj\Release\Core.pdb

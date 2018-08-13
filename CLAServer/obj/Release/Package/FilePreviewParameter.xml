@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="default web site" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^F:\\work\\CallLessAttendance\\CLAServer_v1\\CLAServer\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^F:\\work\\CallLessAttendance\\CLAServer_v1\\CLAServer\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-CLAServer-20180418010404.mdf;Initial Catalog=aspnet-CLAServer-20180418010404;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\work\\CallLessAttendance\\CLAServer_v1\\CLAServer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="claConnectionString-Web.config Connection String" description="claConnectionString Connection String used in web.config by the application to access the database." value="Data Source=AMOL-PC;Initial Catalog=cla;Persist Security Info=True;User ID=clauser;Password=clauser;MultipleActiveResultSets=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\work\\CallLessAttendance\\CLAServer_v1\\CLAServer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='claConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

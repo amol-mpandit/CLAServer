@@ -1,0 +1,81 @@
+﻿using System;
+using System.Web.Mvc;
+using Core;
+using persistence;
+using System.Collections.Generic;
+using CLAServer.Models;
+using AutoMapper;
+using System.Web.Http.Cors;
+
+namespace CLAServer.Controllers
+{
+    [EnableCors("*", "*", "*")]
+    public class FacultiesController : Controller
+    {
+        private readonly FacultyRepository _facultyRepository;
+
+        public FacultiesController(FacultyRepository facultyRepository)
+        {
+            _facultyRepository = facultyRepository;
+        }
+
+        public JsonResult Index()
+        {
+            var allFaculties = new List<FacultyViewModel>();
+            foreach(var faculty in _facultyRepository.GetAll())
+            {
+                var facultyToView = Mapper.Map<FacultyViewModel>(faculty);
+                allFaculties.Add(facultyToView);
+            }
+            return Json(new { result = allFaculties }, JsonRequestBehavior.AllowGet);
+        }
+        
+        public ActionResult Details(int id)
+        {
+            var detail = _facultyRepository.Get(id);
+            return View(detail);
+        }
+        
+        [HttpPost]
+        public JsonResult Add(Faculty facultyToAdd)
+        {
+            try
+            {
+                _facultyRepository.Add(facultyToAdd);
+                return Json(new { result = "success" }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception e)
+            {
+                return Json(new { result = e.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+        
+        [HttpPost]
+        public JsonResult Edit(Faculty facultyToEdit)
+        {
+            try
+            {
+                _facultyRepository.Update(facultyToEdit);
+                return Json(new { result = "success" }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception e)
+            {
+                return Json(new { result = e.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+        
+        [HttpPost]
+        public JsonResult Delete(int id)
+        {
+            try
+            {
+                _facultyRepository.Delete(id);
+                return Json(new { result = "success" }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception e)
+            {
+                return Json(new { result = e.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+    }
+}

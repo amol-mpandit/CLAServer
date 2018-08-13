@@ -1,0 +1,12 @@
+﻿@model IEnumerable<string>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var message in Model)
+    {
+        @Html.Display(message, new { @class = "text-danger" })
+    }
+}
+
+
+
