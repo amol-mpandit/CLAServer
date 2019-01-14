@@ -27,6 +27,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>2.9</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -387,7 +388,9 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="Properties\PublishProfiles\CLAServer - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\CLAServer.pubxml" />
+    <None Include="Properties\PublishProfiles\CLAServerApp.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\fullcalendar-scheduler-1.9.4\fullcalendar-scheduler-1.9.4\CHANGELOG.txt" />
     <Content Include="Scripts\fullcalendar-scheduler-1.9.4\fullcalendar-scheduler-1.9.4\CONTRIBUTING.txt" />

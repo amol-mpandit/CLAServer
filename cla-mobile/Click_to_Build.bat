@@ -1,2 +1,2 @@
-call nom install --save
+call npm install --save
 call npm run build
